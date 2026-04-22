@@ -1,7 +1,0 @@
-//week08-1 好玩的程式設計 氣球(圖片)
-size(500,500);
-PImage img;//圖片宣告(要把ballon.png從檔案總管拉到程式裡)
-img= loadImage("balloon.png");//呼叫函式 讀入圖片
-image(img,0,0,96,132);//看圖大小,依比例調整
-//image(圖,x,y,寬,高);
-image(img,96,0,96*2,132*2);//兩倍大的氣球
